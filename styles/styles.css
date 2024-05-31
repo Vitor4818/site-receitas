@@ -1,0 +1,88 @@
+*{
+    font-family: "Young Serif", serif;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    border-radius: 10px;
+}
+
+.recipe h1{
+    font-size: 30px;
+    color: hsl(15,4%,18%);
+
+}
+
+h2{
+color: hsl(14, 45%, 36%);
+}
+
+
+.recipe p{
+    color: hsl(15,4%,18%);
+}
+.preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 3%;    
+}
+
+.preparation-time h3{
+    color: hsl(332, 51%, 32%);
+    
+}
+ul{
+    color: hsl(15,4%,18%);
+}
+
+ul li::marker{
+    color: hsl(332, 51%, 32%);;
+}
+ul li{
+    margin: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
