@@ -52,15 +52,38 @@ color: hsl(14, 45%, 36%);
     color: hsl(332, 51%, 32%);
     
 }
-ul{
+.list{
     color: hsl(15,4%,18%);
+    font-weight: bold;
+
 }
 
-ul li::marker{
+.list li::marker{
     color: hsl(332, 51%, 32%);;
 }
-ul li{
+.list li{
     margin: 3%;
+    font-family: "Outfit", sans-serif;
+}
+.separator{
+    margin: 7% 0% 7% 0%;
+}
+
+.table-nutrition{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.table-nutrition P{
+    font-family: "Outfit", sans-serif;
+} 
+span{ 
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
 }
 
 
@@ -84,5 +107,10 @@ ul li{
 
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    margin-top: 15%;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+}
 .attribution a { color: hsl(228, 45%, 44%); }
