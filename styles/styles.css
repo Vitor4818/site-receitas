@@ -1,116 +1,93 @@
-*{
-    font-family: "Young Serif", serif;
+* {
+  font-family: "Young Serif", serif;
 }
 
-body{
-    background-color: hsl(30, 54%, 90%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.main-content{
-    background-color: hsl(0, 0%, 100%);
-    width: 50%;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3%;
-}
-
-.image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.image img{
-    border-radius: 10px;
+.main-content {
+  background-color: hsl(0, 0%, 100%);
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
 }
 
-.recipe h1{
-    font-size: 30px;
-    color: hsl(15,4%,18%);
-
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  border-radius: 10px;
 }
 
-h2{
-color: hsl(14, 45%, 36%);
+.recipe h1 {
+  font-size: 30px;
+  color: hsl(15, 4%, 18%);
 }
 
-
-.recipe p{
-    color: hsl(15,4%,18%);
-}
-.preparation-time{
-    background-color: hsl(330, 100%, 98%);
-    border-radius: 10px;
-    padding: 3%;    
+h2 {
+  color: hsl(14, 45%, 36%);
 }
 
-.preparation-time h3{
-    color: hsl(332, 51%, 32%);
-    
+.recipe p {
+  color: hsl(15, 4%, 18%);
 }
-.list{
-    color: hsl(15,4%,18%);
-    font-weight: bold;
-
-}
-
-.list li::marker{
-    color: hsl(332, 51%, 32%);;
-}
-.list li{
-    margin: 3%;
-    font-family: "Outfit", sans-serif;
-}
-.separator{
-    margin: 7% 0% 7% 0%;
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 3%;
 }
 
-.table-nutrition{
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+.preparation-time h3 {
+  color: hsl(332, 51%, 32%);
+}
+.list {
+  color: hsl(15, 4%, 18%);
+  font-weight: bold;
 }
 
-.table-nutrition P{
-    font-family: "Outfit", sans-serif;
-} 
-span{ 
-    font-weight: bold;
-    font-family: "Outfit", sans-serif;
-    color: hsl(332, 51%, 32%);
+.list li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.list li {
+  margin: 3%;
+  font-family: "Outfit", sans-serif;
+}
+.separator {
+  margin: 7% 0% 7% 0%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { 
-    margin-top: 15%;
-    font-family: "Outfit", sans-serif;
-    font-size: 15px; 
-    text-align: center; 
+.table-nutrition {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+.table-nutrition P {
+  font-family: "Outfit", sans-serif;
+}
+span {
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+}
+
+.attribution {
+  margin-top: 15%;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
